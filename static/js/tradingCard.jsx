@@ -49,3 +49,25 @@ ReactDOM.render(
   ),
   document.querySelector('#llambda')
 );
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Merge"
+      skill="board games"
+      imgUrl="/static/img/merge.jpg"
+    />
+  ),
+  document.querySelector('#merge')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Polymorphism"
+      skill="Python"
+      imgUrl="/static/img/polymorphism.jpg"
+    />
+  ),
+  document.querySelector('#polimorphism')
+);
